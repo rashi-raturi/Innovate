@@ -1,0 +1,89 @@
+import React from "react";
+
+const LoginBackground = () => {
+  return (
+    <div className="fixed inset-0 z-0 overflow-hidden">
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-indigo-900/30 to-slate-900"></div>
+
+      {/* Grid overlay */}
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMDIwMjAiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0yaDF2NGgtMXYtNHptLTUgMmg0djFoLTR2LTF6bTAgMmgxdi00aC0xdjR6TTI0IDMwaDR2MWgtNHYtMXptMCAyaDF2LTRoLTF2NHptLTUgMGg0djFoLTR2LTF6bTAgMmgxdi00aC0xdjR6bS05LTJoNHYxaC00di0xem0wIDJoMXYtNGgtMXY0em0tNSAwaDF2LTFoLTF2MXptNSA0aDR2MWgtNHYtMXptMCAyaDF2LTRoLTF2NHptLTUgMGg0djFoLTR2LTF6bTAgMmgxdi00aC0xdjR6bS05LTJoNHYxaC00di0xem0wIDJoMXYtNGgtMXY0em0tNSAwaDF2LTFoLTF2MXptNSA0aDR2MWgtNHYtMXptMCAyaDF2LTRoLTF2NHptLTUgMGg0djFoLTR2LTF6bTAgMmgxdi00aC0xdjR6bS05LTJoNHYxaC00di0xem0wIDJoMXYtNGgtMXY0em0tNSAwaDF2LTFoLTF2MXpNNCAyaDF2MUg0di0xem01IDBWMWgxdjFIOXptMiAwaDFWMWgtMXYxem01IDBoMVYxaC0xdjF6bTQgMGgxVjFoLTF2MXptNSAwVjFoMXYxaC0xem0yIDBoMVYxaC0xdjF6bTUgMGgxVjFoLTF2MXptNSAwVjFoMXYxaC0xem0xIDJWM2gxdjFoLTF6bTAgNWgxVjdoLTF2MXptMCA0aDFWMTFoLTF2MXptMCA0VjE1aDF2MWgtMXptMCA0aDFWMTloLTF2MXptMCA0aDF2LTFoLTF2MXptMSA4VjI3aDF2MWgtMXptLTEgOGgxdi0xaC0xdjF6bS0yIDJ2LTFoMXYxaC0xem0tNSAwaDF2LTFoLTF2MXptLTQgMGgxdi0xaC0xdjF6bS01IDB2LTFoMXYxaC0xem0tMiAwaDF2LTFoLTF2MXptLTUgMGgxdi0xaC0xdjF6bS00IDB2LTFoMXYxaC0xek00IDQwaDFWMzlINHYxeiIvPjwvZz48L2c+PC9zdmc+')] opacity-40"></div>
+
+      {/* Top wave - Indigo (Scholarship theme) */}
+      <svg
+        className="absolute top-0 left-0 w-full z-10 opacity-20"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
+      >
+        <path
+          fill="#4F46E5"
+          fillOpacity="0.8"
+          d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,144C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        >
+          <animate
+            attributeName="d"
+            dur="15s"
+            repeatCount="indefinite"
+            values="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,144C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z;
+                   M0,64L48,64C96,64,192,64,288,74.7C384,85,480,107,576,133.3C672,160,768,192,864,170.7C960,149,1056,75,1152,69.3C1248,64,1344,128,1392,160L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z;
+                   M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,144C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          />
+        </path>
+      </svg>
+
+      {/* Middle-top wave - Orange (Canteen theme) */}
+      <svg
+        className="absolute top-0 left-0 w-full z-20 opacity-15"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
+      >
+        <path
+          fill="#FF6600"
+          fillOpacity="0.9"
+          d="M0,160L48,149.3C96,139,192,117,288,112C384,107,480,117,576,144C672,171,768,213,864,208C960,203,1056,149,1152,133.3C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        >
+          <animate
+            attributeName="d"
+            dur="20s"
+            repeatCount="indefinite"
+            values="M0,160L48,149.3C96,139,192,117,288,112C384,107,480,117,576,144C672,171,768,213,864,208C960,203,1056,149,1152,133.3C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z;
+                   M0,128L48,122.7C96,117,192,107,288,101.3C384,96,480,96,576,122.7C672,149,768,203,864,202.7C960,203,1056,149,1152,122.7C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z;
+                   M0,160L48,149.3C96,139,192,117,288,112C384,107,480,117,576,144C672,171,768,213,864,208C960,203,1056,149,1152,133.3C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          />
+        </path>
+      </svg>
+
+      {/* Middle wave - Cyan (Lost & Found theme) */}
+      <svg
+        className="absolute top-1/2 left-0 w-full transform -translate-y-1/2 z-30 opacity-15"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
+      >
+        <path
+          fill="#0EA5E9"
+          fillOpacity="0.8"
+          d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,261.3C672,256,768,224,864,224C960,224,1056,256,1152,261.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        >
+          <animate
+            attributeName="d"
+            dur="25s"
+            repeatCount="indefinite"
+            values="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,261.3C672,256,768,224,864,224C960,224,1056,256,1152,261.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                   M0,224L48,213.3C96,203,192,181,288,186.7C384,192,480,224,576,213.3C672,203,768,149,864,138.7C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+                   M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,261.3C672,256,768,224,864,224C960,224,1056,256,1152,261.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          />
+        </path>
+      </svg>
+
+      {/* Glowing orbs */}
+      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-indigo-600/20 rounded-full filter blur-3xl opacity-70 animate-blob"></div>
+      <div className="absolute top-3/4 right-1/4 w-80 h-80 bg-orange-600/20 rounded-full filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
+      <div className="absolute bottom-1/4 left-1/3 w-72 h-72 bg-cyan-600/20 rounded-full filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
+    </div>
+  );
+};
+
+export default LoginBackground;
